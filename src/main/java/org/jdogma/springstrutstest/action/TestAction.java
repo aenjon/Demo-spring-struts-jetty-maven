@@ -1,8 +1,7 @@
-package org.jdogma.springstrutstest;
+package org.jdogma.springstrutstest.action;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.context.annotation.Scope;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.apache.struts2.config.Namespace;
 import org.apache.struts2.config.Result;
 import org.apache.struts2.dispatcher.ServletDispatcherResult;

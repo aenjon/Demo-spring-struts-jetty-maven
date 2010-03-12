@@ -27,7 +27,7 @@
     <!-- bean type="org.apache.struts2.convention.ActionNameBuilder" name="convention" class="org.apache.struts2.convention.DefaultActionNameBuilder"/ -->
     <!-- constant name="struts.convention.action.includeJars" value=""-->
 
-    <constant name="struts.convention.result.path" value="/WEB-INF/jspx/"/>
+    <constant name="struts.convention.result.path" value="/WEB-INF/"/>
     <!--constant name="struts.mapper.alwaysSelectFullNamespace" value="false"/-->
     <!-- These properties are used by struts fileupload -->
     <constant name="struts.multipart.maxSize" value="10000000" />
