@@ -90,13 +90,6 @@ public class EmbeddedJettyStarter
     }
 
 
-    /**
-     * Computes the location of the src webapp folder of a module given a class
-     * in the same module.
-     *
-     * @param webAppClass some class in the module with the web application to start
-     * @return file location for web application
-     */
     private static File computeWebappRootLocation(Class<? extends EmbeddedJettyStarter> webAppClass) {
         File projectPath;
         URL resource = webAppClass.getResource(webAppClass.getSimpleName() + ".class");
@@ -124,15 +117,6 @@ public class EmbeddedJettyStarter
         return null;
     }
 
-    /**
-     * Check if a server is running on the specified port. This is done so that
-     * we do not have to wait until the context is loaded before we can see if
-     * the server is actually running or not.
-     *
-     * @param port the port number that the server is running on
-     * @throws RuntimeException if the server is already running on 8080.
-     * @throws IOException      network error
-     */
     private static void dieIfRunning(int port) throws IOException {
         ServerSocket socket = null;
         try {

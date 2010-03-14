@@ -8,9 +8,6 @@ import org.apache.struts2.dispatcher.ServletDispatcherResult;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.Action;
 
-/**
- * @author <a href="mailto:maja@zenior.no">Maja S Bratseth</a>
- */
 @Controller
 @Scope("request")
 @Namespace("test")

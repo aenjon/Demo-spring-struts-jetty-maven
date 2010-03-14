@@ -125,11 +125,11 @@
           </exclusions>
       </dependency>
 
-      <dependency>
+      <!-- dependency>
           <groupId>org.apache.struts</groupId>
           <artifactId>struts2-codebehind-plugin</artifactId>
           <version>${struts.version}</version>
-      </dependency>
+      </dependency -->
       <dependency>
           <groupId>org.apache.struts</groupId>
           <artifactId>struts2-convention-plugin</artifactId>
@@ -211,7 +211,7 @@
     <springframework.version>3.0.0.RELEASE</springframework.version>
     <jetty.version>6.1.19</jetty.version>
     <jetty.api.version>6.1.14</jetty.api.version>
-    <struts.version>2.1.8.1</struts.version>
+    <struts.version>2.2.0-SNAPSHOT</struts.version>
   </properties>
 
 </project>
