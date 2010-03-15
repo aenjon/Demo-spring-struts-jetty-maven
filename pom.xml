@@ -83,6 +83,12 @@
       <artifactId>spring-beans</artifactId>
       <version>${springframework.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${springframework.version}</version>
+      <scope>test</scope>
+    </dependency>
     <!-- dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context-support</artifactId>
@@ -211,7 +217,7 @@
     <springframework.version>3.0.0.RELEASE</springframework.version>
     <jetty.version>6.1.19</jetty.version>
     <jetty.api.version>6.1.14</jetty.api.version>
-    <struts.version>2.2.0-SNAPSHOT</struts.version>
+    <struts.version>2.1.8.1</struts.version>
   </properties>
 
 </project>
