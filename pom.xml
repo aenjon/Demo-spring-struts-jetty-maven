@@ -131,11 +131,11 @@
           </exclusions>
       </dependency>
 
-      <!-- dependency>
+      <dependency>
           <groupId>org.apache.struts</groupId>
           <artifactId>struts2-codebehind-plugin</artifactId>
           <version>${struts.version}</version>
-      </dependency -->
+      </dependency>
       <dependency>
           <groupId>org.apache.struts</groupId>
           <artifactId>struts2-convention-plugin</artifactId>
