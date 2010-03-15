@@ -12,13 +12,6 @@ import static junit.framework.Assert.assertNotNull;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations={"/applicationContext-web.xml"})
-public class AnotherTestPageActionTest
+public abstract class AbstractTestCase
 {
-    @Autowired
-    TestService testService;
-
-    @org.junit.Test
-    public void testExecute() throws Exception {
-        assertNotNull( testService);
-    }
 }
