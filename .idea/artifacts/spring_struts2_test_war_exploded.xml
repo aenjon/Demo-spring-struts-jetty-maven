@@ -1,0 +1,41 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="spring-struts2-test:war exploded">
+    <output-path>$PROJECT_DIR$/target/spring-struts2-test-1.0</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring-struts2-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty:6.1.19" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:jetty-util:6.1.19" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api:2.5-20081211" />
+          <element id="library" level="project" name="Maven: org.mortbay.jetty:servlet-api-2.5:6.1.14" />
+          <element id="library" level="project" name="Maven: junit:junit:4.8.1" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-core:2.1.8.1" />
+          <element id="library" level="project" name="Maven: com.opensymphony:xwork-core:2.1.6" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.15" />
+          <element id="library" level="project" name="Maven: ognl:ognl:2.7.3" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:1.3.2" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-codebehind-plugin:2.1.8.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-convention-plugin:2.1.8.1" />
+          <element id="library" level="project" name="Maven: org.apache.struts:struts2-spring-plugin:2.1.8.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/spring-struts2-test-1.0/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="spring-struts2-test/web/Web" />
+    </root>
+  </artifact>
+</component>
