@@ -8,11 +8,7 @@
 *~
 .checkstyle
 .settings/
-target/
-*.orig
-core/src/main/java/META-INF/
-integration-api/src/main/java/META-INF/
-integration/src/main/java/META-INF/
+target/  VB
 model/src/main/java/META-INF/
 utils/src/main/java/META-INF/
 web-common/src/main/java/META-INF/
